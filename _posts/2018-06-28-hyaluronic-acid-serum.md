@@ -1,6 +1,6 @@
 ---
 title: 絕對完美玻尿酸原液
-featured: /images/2014-08-20-hyaluronic-acid-serum/絕對完美玻尿酸原液.jpg
+featured: /images/2018-06-28-hyaluronic-acid-serum/絕對完美玻尿酸原液.jpg
 layout: post
 ---
 
