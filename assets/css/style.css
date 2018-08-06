@@ -601,7 +601,7 @@
 				ul.social li a.fa-tumblr:hover		{ background: #3b5671; }
 				ul.social li a.fa-google-plus		{ background: #da2713; }
 				ul.social li a.fa-google-plus:hover	{ background: #ea3723; }
-
+				ul.social li a.fa-envelope-o		{ background: #ff0000; }
 		ol
 		{
 		}
@@ -641,9 +641,10 @@
 
 		.icon.featured
 		{
+			color: #fff;
 			position: relative;
 			display: inline-block;
-			background-color: #d52349;
+			background-color: #2e9bf3;
 			width: 9em;
 			padding: 1.75em 0 0.75em 0;
 			border-top-left-radius: 5px;
@@ -656,7 +657,7 @@
 			{
 				font-size: 4.5em;
 				line-height: 1em;
-				color: #fff;
+				color:#fff;
 			}
 
 			.icon.featured:after
@@ -665,7 +666,7 @@
 				position: absolute;
 				bottom: -1.95em;
 				left: 0;
-				border-top: solid 2em #d52349;
+				border-top: solid 2em #2e9bf3;
 				border-left: solid 4.5em transparent;
 				border-right: solid 4.5em transparent;
 			}
@@ -682,12 +683,12 @@
 
 			.icon.featured.alt2
 			{
-				background-color: #827a7c;
+				background-color: #d52349;
 			}
 
 				.icon.featured.alt2:after
 				{
-					border-top-color: #827a7c;
+					border-top-color: #d52349;
 				}
 
 /*********************************************************************************/
@@ -706,13 +707,14 @@
 		#banner header
 		{
 			background-color: #252122;
-			background-color: rgba(34,30,31,0.98);
+			background-color: rgba(243, 157, 229, 0.452);
 		}
 
 			#banner header h2
 			{
 				color: #fff;
 				font-weight: 700;
+				font-family:Microsoft JhengHei;
 			}
 
 			#banner header p
@@ -721,6 +723,7 @@
 				padding: 0;
 				font-style: normal;
 				margin: 0;
+				font-family:sans-serif;
 			}
 
 /*********************************************************************************/
