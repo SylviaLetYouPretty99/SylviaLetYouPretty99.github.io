@@ -4,7 +4,7 @@
 
 			<!-- Logo -->
 					<b>
-						<h1 style="font-family: 'Great Vibes', cursive;color: #d4009f;">
+						<h1 style="font-size: 6em;font-family: 'Great Vibes', cursive;color: #d4009f;">
 							<a href="/index.html">Sylvia Studio</a>
 						</h1>
 					</b>
@@ -13,15 +13,15 @@
 				<nav id="nav">
 					<ul>
 						{% assign current = page.url | downcase | split: '/' %}
-						<li><a href="/index.html">首頁</a></li>
+						<li><a href="/index">首頁</a></li>
 						<li {% if current[1] == 'blog' %}class='current'{% endif %}><a href="/blog">保養快報</a></li>
 						<!-- 下拉選單 -->
-						<li>
+						<li {% if current[1] == 'our-services-product.html'%}class='current'{% endif %}{% if current[1] == 'our-services-do-it-yourself.html' %}class='current'{% endif %}{% if current[1] == 'our-services-oem-odm.html' %}class='current'{% endif %}>
 							<a href="#">服務項目</a>
 							<ul>
-								<li><a href="#">肌膚保養系列</a></li>
-								<li><a href="#">保養品手作課</a></li>
-								<li><a href="#">產品開發(OEM/ODM)</a></li>
+								<li><a href="/our-services-product.html">肌膚保養系列</a></li>
+								<li><a href="/our-services-do-it-yourself.html">保養品手作課</a></li>
+								<li><a href="/our-services-oem-odm.html">產品開發(OEM/ODM)</a></li>
 							</ul>
 						</li>
 						<!-- 個人資料-左邊 -->
@@ -29,13 +29,13 @@
 						<!-- 個人資料-右邊 -->
 						<!-- <li {% if current[1] == 'right-sidebar.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}right-sidebar.html">關於</a></li> -->
 						<!-- 個人資料-無邊 -->
-						<li {% if current[1] == 'no-sidebar.html' %}class='current'{% endif %}><a href="/no-sidebar">關於我們</a></li>
+						<li {% if current[1] == 'about-us.html' %}class='current'{% endif %}><a href="/about-us">關於我們</a></li>
 					</ul>
 				</nav>
 
-				<div class="header-img">
+				<!-- <div class="header-img">
 					<img src="/assets/images/pic01.jpg">
-				</div>
+				</div> -->
 
 		</div>
 	</div>

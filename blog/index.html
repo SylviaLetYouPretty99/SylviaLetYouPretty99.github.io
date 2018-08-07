@@ -5,7 +5,12 @@ layout: default
 <body>
 
 	{% include nav.html %}
-
+			<section class="header-img">
+				<header>
+					<h2>保養快報</h2>
+					<p>News</p>
+				</header>
+			</section>
 		<!-- Main -->
 			<div id="main-wrapper">
 				<div class="container">
@@ -14,9 +19,9 @@ layout: default
 
 				<!-- Blog -->
 					<section>
-						<header class="major">
+						<!-- <header class="major">
 							<h2>商品</h2>
-						</header>
+						</header> -->
 						{% for post in site.posts offset: 0 limit: 4 %}
 						<div class="row">
 							<div class="10u -1u">
@@ -29,7 +34,7 @@ layout: default
 									{{ post.excerpt }}
 									<footer>
 										<ul class="actions">
-											<li><a href="{{ post.url }}" class="button icon fa-file-text">Continue Reading</a></li>
+											<li><a href="{{ post.url }}" class="button icon fa-file-text">繼續閱讀...</a></li>
 											<!-- <li><a href="#" class="button alt icon fa-comment">33 comments</a></li> -->
 										</ul>
 									</footer>
