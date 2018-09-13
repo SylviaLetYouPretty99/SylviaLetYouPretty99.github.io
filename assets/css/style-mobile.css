@@ -68,9 +68,9 @@
 
 	/* List */
 
-		ul.actions
+		/* ul.actions
 		{
-		}
+		} */
 		
 			ul.actions li
 			{
@@ -83,9 +83,9 @@
 				margin-top: 0;
 			}
 			
-		ul.contact
+		/* ul.contact
 		{
-		}
+		} */
 
 			ul.contact li
 			{
@@ -97,18 +97,18 @@
 					top: 0.8em;
 				}
 
-		ul.divided
+		/* ul.divided
 		{
-		}
+		} */
 		
 			ul.divided li
 			{
 				padding: 0.5em 0 0.5em 0;
 			}
 
-		ul.links
+		/* ul.links
 		{
-		}
+		} */
 		
 			ul.links li
 			{
@@ -125,9 +125,9 @@
 				margin-top: 0;
 			}
 
-		ul.social
+		/* ul.social
 		{
-		}
+		} */
 
 			ul.social li
 			{
@@ -178,9 +178,9 @@
 			border-radius: 5px;
 		}
 
-		#titleBar .toggle:active
+		/* #titleBar .toggle:active
 		{
-		}
+		} */
 
 			#titleBar .toggle:active:before
 			{

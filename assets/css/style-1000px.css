@@ -9,9 +9,9 @@
 
 	/* Section/Article */
 
-		header
+		/* header
 		{
-		}
+		} */
 		
 			header.major
 			{
@@ -25,9 +25,9 @@
 
 	/* List */
 
-		ul.social
+		/* ul.social
 		{
-		}
+		} */
 
 			ul.social li
 			{
@@ -72,9 +72,9 @@
 /* Header                                                                        */
 /*********************************************************************************/
 
-	#header
+	/* #header
 	{
-	}
+	} */
 	
 		#header h1
 		{
@@ -105,9 +105,9 @@
 			padding: 1em 2em;
 		}
 
-		#intro .middle
+		/* #intro .middle
 		{
-		}
+		} */
 		
 			#intro .middle:before
 			{
